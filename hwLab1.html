@@ -5,14 +5,150 @@
 		<title> Lab1 HTML</title>  
    </head>
 	
+	<style>
+
+
+		nav ul {
+			padding :10px;
+			text-align :center;
+			}
+		
+	    nav ul li {
+		   display: inline-block;
+		    }
+
+		nav ul li:after {
+		  content : " | ";
+			}
+
+		nav ul li:last-child:after {
+		  content : "" ;
+		}
+		
+		
+		
+		nav ul {
+			padding :10px;
+			text-align :center;
+			}
+	     nav ul li {
+		   display: inline-block;}
+
+		nav ul li:after {
+		  content : " | ";
+			}
+
+		nav ul li:last-child:after {
+		  content : "" ;
+		}
+		
+		
+		
+		.post {
+			width :65%;
+			float : left;  
+		}
+
+
+		article {
+			border: 1px solid #Caa;
+			margin : 20px;
+			padding: :20px;   
+		}
+
+
+		article  header{
+			padding : 5px;
+             background-color :#ecdcc5; 
+		}
+		
+		article section {
+     
+     padding: 10px;
+}
+
+		article section figure img {
+		  width: 45%;
+
+		} 
+
+		article section figure {
+			padding: 5px;
+		  align-items: center;
+
+		} 
+		
+		input {
+
+			width: 40%;
+			margin: 2px;
+		}
+		
+		
+			footer {
+				 background-color:#ecdcc55e;
+			text-align :center;
+		}
+
+			aside {
+	   float : right;
+		width:30%;
+		 margin-right :20px;
+	}
+
+
+		aside section {
+			
+		margin : 20px auto;
+		padding: 10px;
+		border: 1px solid #Caa;   
+	}
+		
+		
+	aside section h3 {
+	   background-color:rosybrown;
+	   padding: 2px;
+		text-align:center;
+	}
+		
+	audio{
+
+		 width: 98%;
+		 margin: 5px;
+	height: 15px;
+	}
+
+
+	video{
+
+		 width: 98%;
+		 margin: 5px;
+
+	}
+
+
+		.clearfix{
+    clear:both;
+} 
+
+
 	
+		
+		
+	
+
+
+
+	</style>
+
+
 	
 	
 	
    
    <body>
 	     <header class="main"  >
-			 <h1  style="text-align:center;">HTML HOME PAGE</h1>
+			 <h1  style="text-align:center; ">HTML HOME PAGE</h1>
         </header>
 	   
 	    <nav>
@@ -24,7 +160,7 @@
          </ul>
         </nav>
 
-	      <p  style="text-align :center;" >welcom to our <span>HTML5</span> course</p>
+	      <p  style="text-align :center;" >welcom to our <span>HTML</span> page </p>
 	   
 	   
 	   
@@ -92,7 +228,7 @@
                        <p> This is  audio</p>
                       
                       <audio controls  loop muted preload="none" >
-                    <source src="media/ad.mp3"  type="audio/mpeg">
+                    <source src="media/adu.mp3"  type="audio/mpeg">
                      Your browser does not support Audio Tech
                   </audio>
 					  
@@ -140,7 +276,7 @@
    
        </div> 
 
-      
+     
 	   
         <aside>
 
@@ -157,8 +293,11 @@
           
         </aside>
 	   
+	     <div class="clearfix">
+        </div>
+	    <footer> @all rights reserved </footer>
 	  
-	   <footer> @all rights reserved </footer>	
+	   	
 	  
 
    </body>
